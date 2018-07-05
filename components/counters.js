@@ -57,7 +57,7 @@ var Counter = React.createClass({
     
     componentWillUnmount: function() {
         console.log('Kompontent został odmontowany');
-}
+    }
 });
 
 var element = React.createElement(Counter);
