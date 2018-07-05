@@ -31,9 +31,11 @@ var Counter = React.createClass({
         console.log('Aktualizacja stanu licznika');
     },
     
+   /*
     shouldComponentUpdate: function() {
         console.log('Sprawdzenie optymalizacji komponentu');
     },
+    */
     
     componentWillUpdate: function() {
         console.log('Komponent został zoptymalizowany');
